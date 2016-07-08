@@ -1,0 +1,210 @@
+/* General page styling */
+html, body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;   
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+}
+
+.portblue {
+  color: #05114F;
+}
+
+header.jumbotron.text-center {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+/* Landing page */
+#home {
+  background: transparent;
+  min-height: 100%;
+  position: relative;
+  background-position: fixed;  
+}
+
+#home:before {
+  content: '';
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  background-image: url('../assets/background.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-filter: brightness(50%);
+  -moz-filter: brightness(50%);
+  -o-filter: brightness(50%);
+  -ms-filter: brightness(50%);
+  filter: brightness(50%);
+  background-attachment: fixed;    
+}
+
+.home-intro {
+  color: white;
+  padding: 270px 0;
+}
+
+/* content spacing & <hr> styles */
+.content-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.separator-white {
+  border-top: solid 3px #fff;
+  color: #fff;
+}
+
+.separator-jetstream {
+  border-top: solid 3px #B6CEC7;
+  color: #fff;
+}
+
+.separator-blue {
+  border-top: solid 3px #0099cc;
+  color: #fff;
+}
+
+.separator-black {
+  border-top: solid 3px black;
+  color: #fff;
+}
+
+.separator {
+  max-width: 180px;
+}
+
+/* about/contact separation */
+#about-me, #contact {
+  /*background-color: #0099cc;*/
+  background-color: #7268A6;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+/* footer links */
+#contact {
+  margin: 0px;
+  padding: 0px;
+  background-color: #6B3074;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0px;
+}
+
+.social-media li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.social-media li a {
+  color: #fff;
+}
+
+#facebook, #twitter, #github, #linkedin, #ffc {
+  font-size: 1.3em;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  #home {
+    background-attachment: scroll;
+  }
+  
+}
+
+
+.logo-container {
+  text-align: center;
+}
+
+.threejs {
+  padding-top: 10px;
+}
+
+.mongo {
+  padding-top: 30px;
+}
+
+.redis {
+  padding-top: 20px;
+}
+
+.node {
+  padding-top: 30px;
+}
+
+.express {
+  padding-top: 60px;
+}
+
+.docker {
+  padding-top: 20px;
+}
+
+.aws {
+  padding-top: 60px;
+}
+
+#company-logo {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#portfolio {
+  background-color: #86A3C3;
+}
+
+.portfolio-item {
+  height: 100%;
+}
+
+.img-responsive {
+  display: inline-block;
+  width: 250px;
+  vertical-align: middle;
+  height: auto;
+  margin-top: 40px;
+  margin: auto;
+}
+
+.img-responsive.small {
+  width: 180px;
+}
+
+
+/*ENGINEERS*/
+#contact-container {
+  width: 100%;
+}
+
+.owners {
+  display: inline-block;
+}
+
+.link-logo {
+  width: 60px;
+  height: auto;
+}
+
+.team {
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 65%;
+  height: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
