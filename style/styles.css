@@ -51,6 +51,7 @@ header.jumbotron.text-center {
 .home-intro {
   color: white;
   padding: 270px 0;
+  padding-bottom: 0;
 }
 
 /* content spacing & <hr> styles */
@@ -172,7 +173,7 @@ header.jumbotron.text-center {
 
 .img-responsive {
   display: inline-block;
-  width: 250px;
+  width: 180px;
   vertical-align: middle;
   height: auto;
   margin-top: 40px;
@@ -180,7 +181,7 @@ header.jumbotron.text-center {
 }
 
 .img-responsive.small {
-  width: 180px;
+  width: 120px;
 }
 
 
@@ -194,7 +195,7 @@ header.jumbotron.text-center {
 }
 
 .link-logo {
-  width: 60px;
+  width: 40px;
   height: auto;
 }
 
